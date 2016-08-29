@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>个人网站</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->
+<!--light-box-files-->
+<script src="js/jquery.chocolat.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('.gallery-grid a').Chocolat();
+	});
+</script>
+<!--//light-box-files-->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+<!-- start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+	
+</head>
+<body>
+	<!--banner-->
+	<div class="banner">
+		<div class="banner-left">
+			<div class="logo wow fadeInDownBig animated" data-wow-delay=".5s">
+				<h1><a href="index.html">前端工程师</a></h1>
+				<p>front-end Web developer</p>
+			</div>
+			<div class="address wow fadeInUpBig animated" data-wow-delay=".5s">
+				<p>Name：赵丽青</p>
+				<p>Current City：北京</p>
+				<p>Date Of Birth : 1993/04/29</p>
+			</div>
+			<img src="images/1.jpg" class="bnrleft-img wow zoomIn animated" data-wow-delay=".5s" alt=""/>
+		</div>
+		<div class="banner-right wow fadeInRight animated" data-wow-delay=".5s">
+			<div class="navbar-left">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				Menu	
+				</button>	
+			</div>
+			<!--navigation-->
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="top-nav">
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left cl-effect-5">
+						<li class="active"><a href="index.html"><span data-hover="Home">Home</span></a></li>
+						<li><a href="#about" class="scroll"><span data-hover="About">About</span></a></li>
+						<li><a href="#item" class="scroll"><span data-hover="Item">Item</span></a></li>
+						<li><a href="#experience" class="scroll"><span data-hover="Experience">Experience</span></a></li>
+						<li><a href="#hobby" class="scroll"><span data-hover="Hobby">Hobby</span></a></li>
+						<li><a href="#relation" class="scroll"><span data-hover="Relation">Relation</span></a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div><!--//navigation-->
+			</div>
+			<div class="bnr-img">
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!--//banner-->
+	<!--welcome-->
+	<div class="welcome">
+		<div class="container">
+			<h3 class="title wow fadeInDown animated" data-wow-delay=".5s">Welcome To Our Site</h3>
+			<p class="wow fadeInDown animated" data-wow-delay=".5s">前端就是后台实现和视觉表现的桥梁，是贯穿在整个产品开发过程的纽带，起到承上启下的作用，一个好的前端工程师他能够很好理解产品经理对用户体 验的要求，也能够很好地理解后台工程师对数据逻辑，或者程序逻辑进行分离的要求，并将这些要求转化成前台的开发工作。前端就是网站的门面，它的价值远大于 其他的客户端开发。</p>
+			<div class="welcome-info">
+				<div class="col-md-6 welcome-grids wow fadeInDown animated" data-wow-delay=".5s">
+					<div class="view view-eighth">
+						<img src="images/img.jpg" alt="" class="img-responsive" />
+						<div class="mask">
+							<h2>The front-end engineer</h2>
+							<p>Tall is synonymous with</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 welcome-grids wow fadeInDown animated" data-wow-delay=".5s">
+					<div class="view view-eighth">
+						<img src="images/img2.jpeg" alt="" class="img-responsive" />
+						<div class="mask">
+							<h2>code</h2>
+							<p>In the code world soar</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//welcome-->
+	<!--about-grids-->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="about-top wow fadeInDown animated" data-wow-delay=".5s">	
+				<h4>Self introduction </h4>
+				<h2>LOVE SMILE OF GIRL</h2>
+				<div class="about-text">
+					<div class="col-md-6 abt-text-grids">
+						<p>★阳光如我，我如阳光，走到哪里，哪里就能留下我的笑颜！<br>★一个女人重生的办法只有两种：要么变美丽，要么变有钱。 全世界都不相信你，没关系，只要你相信自己，你就是偶像，如果不认命，那就去拼命! <br>★你能多快搞定自己的情绪，就能多快的得到成功。脾气会赶走运气。所以，那些貌似心大的人，不过就是能忍。在成为你想要成为的人之前，做好两件事：活着。忍着。<br>★不为失败找借口，只为成功找方法</p>
+					</div>
+					<div class="col-md-6 abt-text-grids">
+						<p>♥忠实诚信,讲原则，说到做到，决不推卸责任；<br>♥有自制力，做事情始终坚持有始有终，从不半途而废；<br>♥肯学习,有问题不逃避,愿意虚心向他人学习；<br>♥自信但不自负,不以自我为中心；愿意以谦虚态度赞扬接纳优越者,权威者；<br>♥会用100%的热情和精力投入到工作中；<br>♥平易近人。为人诚恳,性格开朗,积极进取,适应力强、勤奋好学、脚踏实地，有较强的团队精神,工作积极进取,态度认真。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<h5>Occupational Skills</h5>
+			</div>
+			<div class="col-md-4 about-grids wow fadeInLeft animated" data-wow-delay=".5s">
+				<h4>1☟></h4>
+				<p>擅用 HTML、CSS、HTML5、CSS3.0、jQuery、JavaScript 框架实现高质量的网页代码并符合 W3C 验证；</p>
+				<h4>2☟></h4>
+				<p>对Ajax、AngularJs的运用，会简单的PS及AI</p>
+			</div>
+			<div class="col-md-4 about-grids wow fadeInUp animated" data-wow-delay=".5s">
+				<img src="images/nature-laptop-outside-macbook.jpg" alt="">
+			</div>
+			<div class="col-md-4 about-grids wow fadeInRight animated" data-wow-delay=".5s">
+				<h4>3☟></h4>
+				<p>熟练运用 jQuery 库，实现网页特效和用户交互体验；</p>
+				<h4>4☟></h4>
+				<p>基于需求，选择合适的框架，做到代码效率最高，代码体积最小，用户体验最好，并提高代码的重用性。</p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//about-grids-->
+	<!--services-->
+	<div class="services" id="services">
+		<div class="container">
+			<h3 class="title wow fadeInLeftBig animated" data-wow-delay=".5s">Item Show</h3>
+			<p class="text-right wow fadeInRight animated" data-wow-delay=".5s">HELLO！以下是我的项目展示，Look at the big screen</p>
+			<div class="services-info">
+				<div class="col-md-6 services-left">
+					<div class="services-top wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="https://www.millenniumhotels.com/zh/" class="col-md-6 services-grids" target="view_window">
+							<img src="images/2016-07-23T18-38-55.750Z.png" alt="" class="img-responsive zoom-img" />
+						</a>
+						<div class="col-md-6 services-grids">
+							<h5>开发时运用技术及参与部分</h5>
+							<p>部分页面的静态布局，采用html、css搭建，将自己的布局利用jQuery加动效来增强用户体验，同时也使用jQuery插件实现用较少代码呈现很好的效果</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="services-top bottom wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="http://zjtzjt.cn/?WebShieldSessionVerify=9lGE3Ew3Mt50rFSpVx3R" target="view_window" class="col-md-6 services-grids srvc-img-right">
+							<img src="images/2016-07-23T18-44-22.367Z.png" alt="" class="img-responsive zoom-img" />
+						</a>
+						<div class="col-md-6 services-grids">
+							<h5>开发时运用技术及参与部分</h5>
+							<p>部分页面的静态布局，采用html、css搭建，穿插使用css3动效，将自己的布局利用jQuery加动效来增强用户体验，同时也使用jQuery插件实现用较少代码呈现很好的效果</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="services-top wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="http://www.sxoxdl.cn/" class="col-md-6 services-grids" target="view_window">
+							<img src="images/山西欧迅电力建设有限公司.png" alt="" class="img-responsive zoom-img" />
+						</a>
+						<div class="col-md-6 services-grids">
+							<h5>开发时运用技术及参与部分</h5>
+							<p>部分页面的静态布局，采用html、css搭建，将自己的布局利用jQuery加动效来增强用户体验，同时也使用jQuery插件实现用较少代码呈现很好的效果</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+					<div class="services-top bottom wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="https://lixinmusic.github.io/poker/" target="view_window" class="col-md-6 services-grids srvc-img-right">
+							<img src="images/扑克牌.png" alt="" class="img-responsive zoom-img" />
+						</a>
+						<div class="col-md-6 services-grids">
+							<h5>开发时运用技术及参与部分</h5>
+							<p>采用了javascript中面向对象的编程思想独立完成的一个扑克牌13消除游戏，运用animate来增加动效，加强了一些视觉感受。</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				
+
+				</div>
+				<div class="col-md-6 services-left">
+					<div class="services-top wow fadeInRight animated" data-wow-delay=".5s">
+						<a href="https://18235135874.github.io/baiduyuqing2/" class="col-md-6 services-grids" target="view_window">
+							<img src="images/百度舆情.png" alt="" class="img-responsive zoom-img" />
+						</a>
+						<div class="col-md-6 services-grids">
+							<h5>开发时运用技术</h5>
+							<p>主要在不使用js的基础上采用css3实现一些较难动效，并使用fullPage插件实现整屏滚动</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="services-top bottom wow fadeInRight animated" data-wow-delay=".5s">
+						<a href="https://18235135874.github.io/beiwanglu3/备忘录.html" target="view_window" class="col-md-6 services-grids srvc-img-right">
+							<img src="images/backlog.png" alt="" class="img-responsive zoom-img" />
+						</a>
+						<div class="col-md-6 services-grids">
+							<h5>开发时运用技术</h5>
+							<p>页面采用html、css搭建，使用html5中本地缓存实现对数据的操作</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="services-top wow fadeInRight animated as" data-wow-delay=".5s">
+						<a href="https://18235135874.github.io/daziyouxi/" class="col-md-6 services-grids" target="view_window">
+							<img src="images/打字游戏.png" alt="" class="img-responsive zoom-img" />
+						</a>
+						<div class="col-md-6 services-grids">
+							<h5>开发时运用技术</h5>
+							<p>主要在不使用js的基础上采用css3实现一些较难动效，并使用fullPage插件实现整屏滚动</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+					<div class="services-top bottom wow fadeInRight animated" data-wow-delay=".5s" >
+						<a href="https://18235135874.github.io/jsonp/jsonp.html" target="view_window" class="col-md-6 services-grids srvc-img-right">
+							<img src="images/jsonp.png" alt="" class="img-responsive zoom-img" style="border:1px solid #ccc" />
+						</a>
+						<div class="col-md-6 services-grids">
+							<h5>开发时运用技术</h5>
+							<p>使用jsonp能解决自己的网站想调用其他网站的数据这个问题。</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//services-->
+	<!--team-->
+	<div class="team" id="team">
+		<div class="container">
+			<h3 class="title wow fadeInDown animated" data-wow-delay=".5s">Work Experience</h3>
+			<div class="team-grids">
+				<section class="main">
+					<ul class="ch-grid">
+						<li class="wow fadeInLeft animated" data-wow-delay=".5s">
+							<div class="ch-item ch-img-1">
+								<div class="ch-info">
+									<h3>北京天竺派出所</h3>
+									<p>主要职责：配合民警进行案件的审查、口供的记录、内勤工作核录信息及警区内部一些必要的工作<br>工作时间：2014.7-2015.4</p>
+								</div>
+							</div>
+						</li>
+						<li class="wow fadeInLeft animated" data-wow-delay=".5s">
+							<div class="ch-item ch-img-2">
+								<div class="ch-info">
+									<h3>太原市橙约科技有限公司</h3>
+									<p>主要职责：1.负责公司网站的设计、改版、更新<br>2.负责与开发人员配合完成所辖网站等前台页面设计和编辑<br>工作时间：2015.5-2016.6</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!--//team-->
+
+	<!-- gallery -->
+	<div class="gallery" id="gallery">
+		<div class="container">
+			<h3 class="title wow fadeInLeft animated" data-wow-delay=".5s">Personal Hobbies</h3>
+			<p class="text-right wow fadeInRight animated" data-wow-delay=".5s">每个人都有自己的兴趣，有的人喜欢在篮球场上奔跑；有的人喜欢畅读在优雅的书卷里；有人喜欢情不自禁地陶醉在琴声里...而我则为爬山、朗诵、旅游，在培养自己兴趣的同时，我更爱生活，爱生活的所有乐趣，包括我从事的职业前端！</p>			
+			<div class="gallery-grids">
+				<div class="gallery-grid">
+					<a href="images/p1.jpg" class="wow fadeInUp animated" data-wow-delay=".5s">
+						<img src="images/p1.jpg" alt=" " class="img-responsive zoom-img" />
+					</a>
+					<a href="images/p.jpg" class="wow fadeInUp animated" data-wow-delay=".5s">
+						<img src="images/p.jpg" alt=" " class="img-responsive zoom-img" />
+					</a>
+				</div>
+				<div class="gallery-grid">
+					<a href="images/psb.jpg" class="wow fadeInUp animated" data-wow-delay=".5s">
+						<img src="images/psb.jpg" alt=" " class="img-responsive zoom-img" />
+					</a>
+					<a href="images/ps1b.jpg" class="wow fadeInUp animated" data-wow-delay=".5s">
+						<img src="images/ps1b.jpg" alt=" " class="img-responsive zoom-img" />
+					</a>
+				</div>
+				<div class="gallery-grid">
+					<a href="images/IMG20151006100938.jpg" class="wow fadeInUp animated" data-wow-delay=".5s">
+						<img src="images/IMG20151006100938.jpg" alt=" " class="img-responsive zoom-img" />
+					</a>
+					<a href="images/IMG20151004134912.jpg" class="wow fadeInUp animated" data-wow-delay=".5s">
+						<img src="images/IMG20151004134912.jpg" alt=" " class="img-responsive zoom-img" />
+					</a>
+				</div>
+				<div class="gallery-grid" class="wow fadeInUp animated" data-wow-delay=".5s">
+					<a href="images/IMG20151002190503.jpg">
+						<img src="images/IMG20151002190503.jpg" alt=" " class="img-responsive zoom-img" />
+					</a>
+					<a href="images/IMG20151001165743.jpg" class="wow fadeInUp animated" data-wow-delay=".5s">
+						<img src="images/IMG20151001165743.jpg" alt=" " class="img-responsive zoom-img" />
+					</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//gallery -->
+	<!--testimonials-->						
+	<div class="testimonials">
+		<div class="container">
+			<div class="col-md-4 testimonial-left">
+				<h3 class="title wow fadeInLeft animated" data-wow-delay=".5s">Traditionally wins award,Always won awards</h3>
+			</div>
+			<div class="col-md-8 testimonial-right wow fadeInRight animated" data-wow-delay=".5s">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="testi-text">
+									<img src="images/1psb.jpg" alt=""/>
+									<h4>国家励志奖学金</h4>
+									<p>大学期间从军训到毕业，荣获各种荣誉。</p>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+				</section>
+				<!--FlexSlider-->					
+					<script defer src="js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+				<!--End-slider-script-->					
+			</div>	
+			<div class="clearfix"> </div>	
+		</div>
+	</div>
+	<!--//testimonials-->
+	<!--contact-->
+	<div class="contact"  id="contact">
+		<div class="container">
+			<div class="contact-grids">
+				<div class="col-md-4 contact-grid">
+					<h3 class="title wow fadeInDown animated" data-wow-delay=".5s">Contact Us</h3>
+					<form class="wow fadeInUp animated" data-wow-delay=".5s">
+						<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+						<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+						<input type="text" value="Telephone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
+						<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+						<input type="submit" value="Send" >
+					</form>
+				</div>
+				<div class="col-md-3 contact-grid wow fadeInRight animated" data-wow-delay=".5s">
+					<h3 class="title">Address</h3>
+					<ul>
+						<li class="dot"><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Address:北京</li>
+						<li class="Phone"><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>18235135874</li>
+						<li class="mail"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com" class="mail">18235135874@163.com</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//contact-->
+	<!--footer-->
+	<div class="footer">
+		<div class="footer-info">
+			<div class="container">	
+				<div class="icons wow fadeInDown animated" data-wow-delay=".5s">	
+			<!-- 		<ul>
+						<li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><img src="images/i1.png" alt=""/></a></li>
+						<li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><img src="images/i2.png" alt=""/> </a></li>
+						<li><a href="#" data-toggle="tooltip" data-placement="top" title="Google+"><img src="images/i3.png" alt=""/></a></li>
+						<li><a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><img src="images/i4.png" alt=""/> </a></li>
+						<li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><img src="images/i5.png" alt=""/> </a></li>
+					</ul> -->
+					<script>$(function () {
+					  $('[data-toggle="tooltip"]').tooltip()
+					})</script>
+				</div>
+				<p class="wow fadeInUpBig animated" data-wow-delay=".5s">Copyright &copy; 2016.ZhaoLiQing</p>					
+			</div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
